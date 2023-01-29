@@ -6,7 +6,7 @@ checkBtn.addEventListener("click", () => {
     let reverseInput = filterInput.split("").reverse().join("");
     infoTxt.style.display = "block";
     if(filterInput != reverseInput) {
-        return infoTxt.innerHTML = `No, <span>'${txtInput.value}'</span> is not a plaindrome`
+        return infoTxt.innerHTML = `No, <span>'${txtInput.value}'</span> is not a palindrome`
     }
    infoTxt.innerHTML = `Yes, <span>'${txtInput.value}'</span> is a palindrome`
    console.log(infoTxt);
